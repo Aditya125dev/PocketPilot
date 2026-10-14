@@ -1,0 +1,11 @@
+date,merchant,category,amount,description,payment_method,notes
+2026-04-01,Campus Bookstore,Books & Supplies,34.50,Calculus study guide and notebook,Card,Midterm prep
+2026-04-02,Starbucks,Food & Dining,6.75,Iced Americano,Apple Pay,Morning study session
+2026-04-03,Metro Transit,Transportation,2.50,Subway ticket,Card,Campus commute
+2026-04-05,Trader Joe's,Food & Dining,52.30,Weekly dorm groceries,Card,Produce and snacks
+2026-04-06,Spotify,Subscriptions,5.99,Spotify Student Premium,Card,Monthly recurring music subscription
+2026-04-07,University Print Shop,Books & Supplies,12.00,Project report binding,Card,Term project submission
+2026-04-08,Chipotle,Food & Dining,13.25,Burrito bowl with guacamole,Card,Dinner with classmates
+2026-04-10,Netflix,Subscriptions,15.49,Netflix Standard Plan,Card,Monthly video streaming subscription
+2026-04-11,CVS Pharmacy,Personal Care,18.40,Vitamins and toiletries,Card,Personal care items
+2026-04-12,Campus Cafe,Food & Dining,5.50,Cold brew coffee,Card,Afternoon library break
