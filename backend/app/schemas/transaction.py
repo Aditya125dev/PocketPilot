@@ -1,9 +1,9 @@
-from datetime import date, datetime
+from datetime import date as Date, datetime
 from typing import Optional, List
 from pydantic import BaseModel, Field, ConfigDict
 
 class TransactionBase(BaseModel):
-    date: date
+    date: Date
     description: str = Field(..., min_length=1, max_length=255)
     merchant: str = Field(..., min_length=1, max_length=255)
     category: str = Field(..., min_length=1, max_length=100)
@@ -15,7 +15,7 @@ class TransactionCreate(TransactionBase):
     pass
 
 class TransactionUpdate(BaseModel):
-    date: Optional[date] = None
+    date: Optional[Date] = None
     description: Optional[str] = Field(default=None, min_length=1, max_length=255)
     merchant: Optional[str] = Field(default=None, min_length=1, max_length=255)
     category: Optional[str] = Field(default=None, min_length=1, max_length=100)
